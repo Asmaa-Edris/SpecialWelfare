@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Social Welfare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators (اختياري) -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="images/home_3_slider.png" alt="Cairo" class="d-block w-100" style="min-height: 300px; object-fit: cover;">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-3 rounded-4">
+        <span class="text-uppercase fs-4 fs-md-1 fw-bold">Helping Hands for a Better Future</span>
+        <p class="fs-6 fs-md-5 mt-2">Join us in our mission to create lasting positive change in communities.</p>
+        <button class="btn btn-light text-success fw-bold bg-gradient rounded-pill px-4 py-2 mt-3">
+          Discover More
+        </button>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="images/home_2_slide.png" alt="Aswan" class="d-block w-100" style="min-height: 300px; object-fit: cover;">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-3 rounded-4">
+        <span class="text-uppercase fs-4 fs-md-1 fw-bold">Empowering Communities Together</span>
+        <p class="fs-6 fs-md-5 mt-2">Your involvement strengthens our ability to reach those who need it most.</p>
+        <button class="btn btn-light text-success fw-bold bg-gradient rounded-pill px-4 py-2 mt-3">
+          Get Involved
+        </button>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="images/home_4.png" alt="Sharm El Sheikh" class="d-block w-100" style="min-height: 300px; object-fit: cover;">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-3 rounded-4">
+        <span class="text-uppercase fs-4 fs-md-1 fw-bold">Making a Tangible Impact</span>
+        <p class="fs-6 fs-md-5 mt-2">Every contribution, big or small, helps us build a more equitable world.</p>
+        <button class="btn btn-light text-success fw-bold bg-gradient rounded-pill px-4 py-2 mt-3">
+          Support Our Causes
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+        <li class="nav-item">
+          <a class="nav-link text-success" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="#">Causes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-success border border-2 border-success-subtle rounded px-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span>G</span>et Involved
+          </a>
+          <ul class="dropdown-menu text-uppercase text-success bg-opacity-75 bg-white border-0">
+            <li><a class="dropdown-item text-success" href="#">Donate Now</a></li>
+            <li><a class="dropdown-item border-bottom border-success-subtle text-success" href="#">Become a Volunteer</a></li>
+            <li><a class="dropdown-item text-success" href="#">Upcoming Events</a></li>
+            <li><a class="dropdown-item text-success" href="#">Blog</a></li>
+            <li><a class="dropdown-item text-success" href="#">Contact</a></li>
+            <li><a class="dropdown-item text-success" href="#">More ....</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="#">About</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 border-success-subtle border-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-success me-2 text-white fw-bold" type="submit">Search</button>
+        <button type="button" class="btn btn-success me-2 text-white fw-bold" data-bs-toggle="modal" data-bs-target="#modela">
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Login Modal -->
+<div class="modal fade" id="modela" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-bg-success d-flex justify-content-between align-items-center p-2">
+        <h4 class="modal-title text-white ms-2">Login</h4>
+        <button type="button" class="btn-close me-2 border border-white bg-white bg-opacity-75" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3 text-success">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control border border-success-subtle border-2" id="email" />
+            <span class="text-dark-emphasis">We'll never share your email with anyone else.</span>
+          </div>
+          <div class="mb-3 text-success">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control border border-success-subtle border-2" id="pwd" name="pswd" />
+          </div>
+          <div class="form-check form-switch text-success">
+            <input class="form-check-input border-success-subtle" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked />
+            <label class="form-check-label" for="mySwitch">Remember me</label>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer d-flex justify-content-between align-items-center">
+        <button type="button" class="btn btn-success me-2 text-white" data-bs-toggle="modal" data-bs-target="#myModal">
+          Login
+        </button>
+        <button type="button" class="btn btn-danger text-white" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/home_3_slider.png" alt="Cairo" class="d-block w-100" />
+          <div class="carousel-caption bg-success bg-opacity-50">
+            <span class="text-uppercase fs-1">Helping Hands for a Better Future</span>
+            <p>Join us in our mission to create lasting positive change in communities.</p>
+            <button class="btn btn-light me-2 text-success fw-bold bg-gradient">
+                         Discover More
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/home_2_slide.png" alt="Aswan" class="d-block w-100" />
+          <div class="carousel-caption bg-success bg-opacity-50">
+            <span class="text-uppercase fs-1">Empowering Communities Together</span>
+            <p>Your involvement strengthens our ability to reach those who need it most.</p>
+            <button class="btn btn-light me-2 text-success  fw-bold bg-gradient">
+              Get Involved
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/home_4.png"
+            alt="Sharm El Shikh"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption bg-success bg-opacity-50">
+            <span class="text-uppercase fs-1">Making a Tangible Impact</span>
+            <p>Every contribution, big or small, helps us build a more equitable world.</p>
+            <button class="btn btn-light me-2 text-success  fw-bold bg-gradient">
+              Support Our Causes
+            </button>
+          </div>
+        </div>
+       
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next "
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <ul
+      class="list-unstyled position-fixed top-50 end-0 translate-middle-y z-3"
+    >
+      <li class="mb-2">
+        <a
+          href="#"
+          class="d-block p-3 pb-2 bg-success bg-opacity-75 text-white rounded-start me-4 social-icon"
+          title="Facebook"
+        >
+          <i class="fab fa-facebook-f fs-4"></i>
+        </a>
+      </li>
+      <li class="mb-2">
+        <a
+          href="#"
+          class="d-block p-3 pb-2 bg-success bg-opacity-75 text-white rounded-start me-4 social-icon"
+          title="WhatsApp"
+        >
+          <i class="fab fa-whatsapp fs-4"></i>
+        </a>
+      </li>
+      <li class="mb-2">
+        <a
+          href="#"
+          class="d-block p-3 pb-2 bg-success bg-opacity-75 text-white rounded-start me-4 social-icon"
+          title="Twitter"
+        >
+          <i class="fab fa-twitter fs-4"></i>
+        </a>
+      </li>
+      <li class="mb-2">
+        <a
+          href="#"
+          class="d-block p-3 pb-2 bg-success bg-opacity-75 text-white rounded-start me-4 social-icon"
+          title="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in fs-4"></i>
+        </a>
+      </li>
+      <li class="mb-2">
+        <a
+          href="#"
+          class="d-block p-3 pb-2 bg-success bg-opacity-75 text-white rounded-start me-4 social-icon"
+          title="Instagram"
+        >
+          <i class="fab fa-instagram fs-4"></i>
+        </a>
+      </li>
+    </ul>
+    <div
+      class="p-5 bg-success bg-opacity-25 text-white rounded border-2 border-bottom border-black border-opacity-25"
+    >
+      <h3 class="color-grident text-uppercase">Welcome to Social Welfare</h3>
+      <p>
+     Social Welfare is a non-profit organization dedicated to creating a positive impact in communities worldwide. We believe in empowering individuals and fostering sustainable change.
+      </p>
+      <button class="btn p-2 me-2 text-success bg-white fw-bold fs-6 learn">
+
+       Discover Mission
+      </button>
+    </div>
+
+    <div
+      class="container-fluid text-center mt-3 border-1 border-top ps-1 border-dark-subtle"
+    >
+      <div
+        class=" p-4 bg-success bg-opacity-75 mt-3 text-white fs-1    rounded-2 popular"
+      >
+        <p>Our Recent Causes</p>
+      </div>
+    </div>
+    <div class="container-fluid ps-0">
+      <div
+        class="d-flex justify-content-between align-items-center border p-3 mt-3 bg-light "  data-bs-toggle="collapse"
+    data-bs-target="#gizaContent"
+      >
+        <span
+          class="text-decoration-none fw-bold color-grident fs-5"
+          data-bs-toggle="collapse"
+          href="#gizaContent"
+          role="button"
+          aria-expanded="false"
+          aria-controls="gizaContent"
+        >
+     Support for Displaced Families
+    </span>
+      </div>
+
+      <div class="collapse" id="gizaContent">
+        <div class="card card-body text-black-50 collap">
+       Providing essential aid, shelter, and support to families displaced by conflict and natural disasters.
+        </div>
+      </div>
+    </div>
+
+ 
+    <div class="container-fluid ps-0">
+      <div
+        class="d-flex justify-content-between align-items-center border p-3 bg-light collap"  data-bs-toggle="collapse" data-bs-target="#luxor"
+
+      >
+        <span
+          class="text-decoration-none fw-bold color-grident fs-5"
+          href=""
+          role="button"
+          aria-expanded="false"
+          aria-controls="luxor"
+        >
+        Clean Water Initiatives
+    </span>
+      </div>
+
+      <div class="collapse" id="luxor">
+        <div class="card card-body text-black-50 collap">
+       Implementing projects to ensure access to safe and clean drinking water in rural and underserved areas.
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ps-0">
+      <div
+        class="d-flex justify-content-between align-items-center border p-3 bg-light collap" data-bs-toggle="collapse"
+          href="#sinai"
+      >
+        <span
+          class="text-decoration-none fw-bold color-grident fs-5"
+       
+          role="button"
+          aria-expanded="false"
+          aria-controls="sinai"
+        >
+      Empowering Youth Through Skills
+    </span>
+      </div>
+
+      <div class="collapse" id="sinai">
+        <div class="card card-body text-black-50 collap">
+        Offering vocational training and educational opportunities to equip young people with valuable life skills.
+        </div>
+      </div>
+    </div><div
+      class="container-fluid mt-3 border-1 border-top  ps-1 border-dark-subtle"
+    >
+<div class="container-fluid p-1 bg-success bg-opacity-75 mt-3 text-white fs-1 border border-1 text-center border-success rounded-2 popular">
+  <p>Support Our Social Welfare Mission</p>
+</div>
+
+<div class="p-5 bg-success-subtle bg-opacity-50 text-success-emphasis rounded border-2 border-bottom border-black border-opacity-25">
+  <p class="fs-4">Support our mission <span class="text-success">Click to Donate</span></p>
+
+  <button type="button" data-bs-toggle="modal" data-bs-target="#modalDonate" class="btn bg-success text-white btnCopy"
+    data-bs-placement="bottom" title="Donation!">
+    Donation Confirmed
+  </button>
+
+
+  <div class="modal" id="modalDonate">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title text-capitalize text-black">Donation Confirmed</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body text-black-50">Thank you for supporting our cause!</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-2">
+    <textarea class="form-control" rows="4"  placeholder="Write your message or support idea..."></textarea>
+  </div>
+</div>
+
+<div class="container-fluid mt-3 border-1 border-top  ps-1 border-black  border-opacity-25">
+  <div class="container-fluid p-1 bg-success bg-opacity-75 mt-3 text-white fs-1 border border-1 text-center border-success rounded-2 popular">
+    <p>Join As A Volunteer</p>
+  </div>
+
+</div>
+
+
+<div class="p-5 bg-success-subtle bg-opacity-50 text-success-emphasis rounded border-2 border-bottom border-black border-opacity-25">
+  <p class="fs-4">Become part of our team <span class="text-success">Press to Join</span></p>
+
+  <button type="button" data-bs-toggle="modal" data-bs-target="#modalVolunteer" class="btn bg-success text-white btnCopy"
+    data-bs-placement="bottom" title="Join Us!">
+    Volunteer Now
+  </button>
+
+  <div class="modal" id="modalVolunteer">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title text-black">Application Submitted</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body text-black-50">Thank you for joining us!</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-2">
+    <textarea class="form-control" rows="4" placeholder="Tell us why you want to volunteer..."></textarea>
+  </div>
+</div>
+
+<div class="container-fluid mt-3 border-1 border-top  ps-1 border-black  border-opacity-25">
+  
+  <div class="container-fluid p-1 bg-success text-center bg-opacity-75 mt-3 text-white fs-1  border border-1  border-success rounded-2 popular">
+    <p>Raise Awareness</p>
+  </div>
+</div>
+
+
+<div class="p-5 bg-success-subtle bg-opacity-50   text-success-emphasis rounded border-2 border-bottom border-black border-opacity-25">
+  <p class="fs-4">Spread the word <span class="text-success">Click to Share</span></p>
+
+  <button type="button" data-bs-toggle="modal" data-bs-target="#modalAwareness" class="btn bg-success text-white btnCopy"
+    data-bs-placement="bottom" title="Share!">
+    Share Message
+  </button>
+
+
+  <div class="modal" id="modalAwareness">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title text-black">Message Shared</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body text-black-50">Your message has been shared successfully.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-2">
+    <textarea class="form-control" rows="4" placeholder="Write a message to raise awareness..."></textarea>
+  </div>
+</div>
+<div class="container-fluid border-1 border-top  mt-3">
+
+  <div class="container-fluid imagesScroll mt-3 ">
+  </div>
+ 
+    
+
+   <div
+        class="container-fluid p-1 bg-success   fs-1  text-center bg-opacity-75  rounded-2 popular"
+      >
+        <p class="color-grident3 fw-bold">OUR CORE FOCUS AREAS</p>
+      </div>
+<div class="container-fluid py-5">
+  <div class="row justify-content-center">
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/f41c31ab9773c145477228c57c881662.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Education</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Empowering communities through learning.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/ealthcare.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Healthcare</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Ensuring well-being for all citizens.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/food.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Food Security</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Combating hunger and malnutrition.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row justify-content-center">
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/house.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Housing</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Providing safe homes for families.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/social.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Protection</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Safety nets for vulnerable populations.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/community.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Community</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Building stronger, resilient neighborhoods.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/elderlcaresupport.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Elderly Support</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Caring for our senior citizens.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+      <div class="card shadow cardtran w-100">
+        <img src="images/disability inclusion accessibility.jpg" class="card-img-top img-fluid mx-auto" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <span class="card-title text-success fs-4 text-uppercase">Disability</span>
+            <a href="#" class="btn btn-success text-white">Learn More</a>
+          </div>
+          <p class="card-text text-start text-secondary">Promoting equal opportunities for all.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container-fluid imagesScroll1">
+</div>
+ <div
+      class="container-fluid text-center mt-3 border-top ps-1 border-dark-subtle "
+    >
+    <div
+        class="bg-success mt-3 text-white  fs-1 fw-bold  rounded-2 p-2 shadow"
+      >
+        <p class="color-grident3 text-center"> Our Volunteers</p>
+      </div>
+
+<div class="container py-5">
+  <div class="row g-4 justify-content-center">
+
+    <!-- Card 1 -->
+    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card text-white position-relative overflow-hidden rounded-4 shadow scal w-100" style="max-width: 350px; height: 400px;">
+        <img src="images/team_6.webp" class="w-100 h-100 object-fit-cover" alt="Volunteer Profile">
+        <div class="position-absolute top-0 start-0 w-100 h-100 hover1" style="background-color: rgba(0,0,0,0.6);"></div>
+
+        <div class="position-absolute top-0 w-100 text-start pt-3 px-3">
+          <h5 class="fw-bold">All thanks and appreciation</h5>
+          <small><i class="bi bi-clock"></i> October 15, 2023</small>
+        </div>
+
+        <div class="position-absolute bottom-0 start-0 w-100 text-start p-3">
+          <div class="rounded-circle overflow-hidden border border-3 border-white" style="width: 90px; height: 130px;">
+            <img src="images/team_6.webp" class="w-100 h-100 object-fit-cover" alt="Volunteer Avatar">
+          </div>
+          <div class="text-white mt-2">
+            <p class="mb-0 fw-semibold">John Smith</p>
+            <small>Community Outreach</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card text-white position-relative overflow-hidden rounded-4 shadow scal w-100" style="max-width: 350px; height: 400px;">
+        <img src="images/team_9.webp" class="w-100 h-100 object-fit-cover" alt="Volunteer Profile">
+        <div class="position-absolute top-0 start-0 w-100 h-100 hover1" style="background-color: rgba(0,0,0,0.6);"></div>
+
+        <div class="position-absolute top-0 w-100 text-start pt-3 px-3">
+          <h5 class="fw-bold">All thanks and appreciation</h5>
+          <small><i class="bi bi-clock"></i> November 20, 2023</small>
+        </div>
+
+        <div class="position-absolute bottom-0 start-0 w-100 text-start p-3">
+          <div class="rounded-circle overflow-hidden border border-3 border-white" style="width: 90px; height: 130px;">
+            <img src="images/team_9.webp" class="w-100 h-100 object-fit-cover" alt="Volunteer Avatar">
+          </div>
+          <div class="text-white mt-2">
+            <p class="mb-0 fw-semibold">Emily White</p>
+            <small>Program Coordinator</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
+      <div class="card text-white position-relative overflow-hidden rounded-4 shadow scal w-100" style="max-width: 350px; height: 400px;">
+        <img src="images/team_8.webp" class="w-100 h-100 object-fit-cover" alt="Volunteer Profile">
+        <div class="position-absolute top-0 start-0 w-100 h-100 hover1" style="background-color: rgba(0,0,0,0.6);"></div>
+
+        <div class="position-absolute top-0 w-100 text-start pt-3 px-3">
+          <h5 class="fw-bold">All thanks and appreciation</h5>
+          <small><i class="bi bi-clock"></i> December 10, 2023</small>
+        </div>
+
+        <div class="position-absolute bottom-0 start-0 w-100 text-start p-3">
+          <div class="rounded-circle overflow-hidden border border-3 border-white" style="width: 90px; height: 130px;">
+            <img src="images/team_8.webp" class="w-100 h-100 object-fit-cover" alt="Volunteer Avatar">
+          </div>
+          <div class="text-white mt-2">
+            <p class="mb-0 fw-semibold">Michael Johnson</p>
+            <small>Volunteer Team Lead</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container-fluid border-top  border-dark-subtle">
+<h3 class="text-center fw-bold mt-2 color-grident   ">
+Voices for a Better Society
+</h3>
+  <div class="container py-3  d-flex justify-content-center">
+    
+    <div class="card rounded-4 overflow-hidden w-100" style="max-width: 1100px;  box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+      <div class="row g-0 flex-column flex-md-row">
+        <div class="col-md-5">
+          <img src="images/counter2" alt="Podcast Image" class="img-fluid w-100 h-100 imgclip1" style="object-fit: cover; min-height: 220px;">
+        </div>
+        <div class="col-md-7 p-3 d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="text-success fw-bold mt-3 text-start">Podcast Title</h4>
+        <div class="green text-start">
+          <p class="mb-2 text-muted "><i class="bi bi-calendar-event"></i> Mon, May 25th 2020</p>
+        </div>
+         
+            <p class="text-dark mb-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo placeat maiores cumque quis sint repudiandae voluptatibus quas, nisi recusandae doloremque, voluptas aspernatur dolorem, accusamus cupiditate animi a necessitatibus obcaecati.</p>
+          </div>
+          <div class="d-flex gap-2 mt-4 flex-wrap">
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-tag-fill"></i> Podcast</span>
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-clock-fill"></i> 55 mins</span>
+            <span class="btn btn-outline-success btn-sm"><i class="bi bi-play-fill"></i> Play Episode</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-3 d-flex justify-content-center">
+    <div class="card rounded-4 overflow-hidden w-100" style="max-width: 1100px; box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+      <div class="row g-0 flex-column flex-md-row">
+        <div class="col-md-5 order-md-2">
+          <img src="images/home4.png" alt="Podcast Image" class="img-fluid w-100 h-100 imgclip" style="object-fit: cover; max-height: 280px;">
+        </div>
+        <div class="col-md-7 p-3 d-flex flex-column justify-content-between order-md-1">
+          <div>
+            <h4 class="text-info fw-bold mt-3 text-start">Podcast Title</h4>
+       <div class="blue text-start">
+          <p class="mb-2 text-muted "><i class="bi bi-calendar-event"></i> Mon, May 25th 2025</p>
+        </div>
+            <p class="text-dark mb-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi corrupti quos accusamus autem ea perferendis, ullam ad beatae praesentium illum, earum, voluptas illo explicabo numquam tenetur consectetur harum quasi blanditiis?</p>
+          </div>
+          <div class="d-flex gap-2 mt-4 flex-wrap">
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-tag-fill"></i> Podcast</span>
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-clock-fill"></i> 55 mins</span>
+            <span class="btn btn-outline-info btn-sm"><i class="bi bi-play-fill"></i> Play Episode</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container py-3 d-flex justify-content-center">
+    <div class="card rounded-4 overflow-hidden  w-100" style="max-width: 1100px; box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+      <div class="row g-0 flex-column flex-md-row">
+        <div class="col-md-5">
+          <img src="images/food security.jpg" alt="Podcast Image" class="img-fluid w-100 h-100 imgclip1" style="object-fit: cover; min-height: 220px;">
+        </div>
+        <div class="col-md-7 p-3 d-flex flex-column justify-content-between">
+          <div>
+            <h4 class="text-danger fw-bold mt-3 text-start">Podcast Title</h4>
+    <div class="red text-start">
+          <p class="mb-2 text-muted "><i class="bi bi-calendar-event"></i> Mon, May 25th 2020</p>
+        </div>
+            <p class="text-dark mb-3 text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio incidunt, ipsa quod obcaecati accusantium debitis voluptatem nemo quam optio non consequatur illo at vitae nihil, quo ab modi itaque repellendus!</p>
+          </div>
+          <div class="d-flex gap-2 mt-4 flex-wrap">
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-tag-fill"></i> Podcast</span>
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-clock-fill"></i> 55 mins</span>
+            <span class="btn btn-outline-danger btn-sm"><i class="bi bi-play-fill"></i> Play Episode</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container py-3 d-flex justify-content-center">
+    <div class="card rounded-4 overflow-hidden   w-100" style="max-width: 1100px; box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+      <div class="row g-0 flex-column flex-md-row">
+        <div class="col-md-5 order-md-2">
+          <img src="images/community.jpg" alt="Podcast Image" class="img-fluid w-100 h-100 imgclip" style="object-fit: cover; max-height: 280px;">
+        </div>
+        <div class="col-md-7 p-3 d-flex flex-column justify-content-between order-md-1">
+          <div>
+            <h4 class="text-warning fw-bold mt-3 text-start">Podcast Title</h4>
+          <div class="yellow text-start">
+          <p class="mb-2 text-muted "><i class="bi bi-calendar-event"></i> Mon, May 25th 2023</p>
+        </div>
+            <p class="text-dark mb-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorum non, animi, ut omnis dolorem illum aliquid nulla minus quisquam recusandae cum nihil fugiat voluptatibus doloremque accusamus esse eligendi pariatur!</p>
+          </div>
+          <div class="d-flex gap-2 mt-4 flex-wrap">
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-tag-fill"></i> Podcast</span>
+            <span class="btn btn-outline-dark btn-sm"><i class="bi bi-clock-fill"></i> 55 mins</span>
+            <span class="btn btn-outline-warning btn-sm"><i class="bi bi-play-fill"></i> Play Episode</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h3 class="text-center fw-bold mt-3 color-grident  text-uppercase ">
+Join Us
+</h3>
+<div class="container py-4">
+  <div class="row justify-content-center text-center">
+
+    <div class="col-6 col-md-4 mb-3">
+      <img src="images/instgram.jfif" alt="Instagram"
+        class="rounded"
+        style="width: 120px; height: 120px; object-fit: cover; box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+    </div>
+
+    <div class="col-6 col-md-4 mb-3">
+      <img src="images/linked.jfif" alt="LinkedIn"
+        class="rounded"
+        style="width: 120px; height: 120px; object-fit: cover; box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+    </div>
+
+    <div class="col-6 col-md-4 mb-3">
+      <img src="images/youtub.jfif" alt="YouTube"
+        class="rounded"
+        style="width: 120px; height: 120px; object-fit: cover; box-shadow: 4px 4px 12px rgba(74, 234, 74, 0.51);">
+    </div>
+
+  </div>
+</div>
+
+
+
+
+  <div class="row text-white justify-content-center">
+
+    <footer class="bg-success text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 mx-auto mb-4 ">
+                    <p class="text-uppercase   border-top p-2 border-bottom  mb-4 d-flex fs-5 align-items-center justify-content-center justify-content-md-start">
+                        <img src="images/logo.jpg" alt="Special Welfare Logo" class="me-2 rounded-circle ms-5 " style="width: 70px; height: 70px;  box-shadow: 2px 4px 15px rgba(255, 255, 255, 0.774);">
+                        Special Welfare
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><p class="mb-1 text-center ">Tel: 000-000-000</p></li>
+                        <li><p class="mb-1 text-center">Address: EGYPT</p></li>
+                        <li><p class="mb-1 text-center">Fax: 000-000-000</p></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-4 mx-auto mb-4 ">
+                    <p class="text-uppercase fs-5 mb-4  border-top p-2 border-bottom  d-flex align-items-center justify-content-center  justify-content-md-start">
+                        <img src="images/logo.jpg" alt="Special Welfare Logo" class="me-2 rounded-circle  ms-5" style="width: 70px; height: 70px;  box-shadow: 2px 4px 15px rgba(255, 255, 255, 0.774);">
+                        Important Links
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-center text-decoration-none mb-1 d-block">Visit Us</a></li>
+                        <li><a href="#" class="text-black text-center  text-decoration-none mb-1 d-block">Take a Look</a></li>
+                        <li><a href="#" class="text-black text-center text-decoration-none mb-1 d-block">Your Health is More Important</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-4 mx-auto mb-4">
+                    <p class="text-uppercase   border-top p-2 border-bottom  fs-5 mb-4 d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="images/logo.jpg" alt="Special Welfare Logo" class="me-2 rounded-circle ms-5  " style="width: 70px; height: 70px;  box-shadow: 2px 4px 15px rgba(255, 255, 255, 0.774);">
+                        Our Vision
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><p class="mb-1 text-center">Services for All</p></li>
+                        <li><p class="mb-1 text-center">Provide Best Services</p></li>
+                        <li><p class="mb-1 text-center">You Will Be Better Than Before</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-dark-emphasis p-4 text-uppercase color-grident3 text-center fs-4 border-bottom border-top">
+            <div class="container">
+                <p   class="mb-0">Copyright &copy; 2025 Special Welfare. All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class=" p-4"></div>
+        
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+  </body>
+</html>

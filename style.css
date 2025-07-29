@@ -1,0 +1,233 @@
+body{
+  background-color: rgb(234, 231, 231);
+}
+
+
+.dropdown-toggle:hover span{
+    color: rgb(248, 53, 53);
+    transition: .3s;
+   font-size: 18PX;
+}
+ .form-check-input:checked {
+    background-color: #0dcaf0; 
+ 
+  }
+  .carousel-item img{
+    height: 100vh;
+   
+
+  }
+   .social-icon:hover
+   {
+    background-color: #85d8a2 !important;
+    
+  }
+ .color-grident {
+ 
+    background:linear-gradient(to top ,#29ef0b, #010002 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;  
+}
+
+.color-grident3{
+ 
+    background:linear-gradient(to top ,#e7fce4, #c7bb36 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;  
+}
+.learn:hover{
+  background-color: gray;
+opacity: .3;
+color: gray !important;
+}
+
+
+ .collap {
+      background: linear-gradient(to bottom, rgb(216, 215, 215), white)
+}
+.btnCopy:hover {
+  background-color: #6aab87 !important; 
+
+}
+
+.imagesScroll {
+  background-image: url('images/counter1'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 300px;
+  
+
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .imagesScroll {
+    background-attachment: fixed;
+  }
+}
+.card img{
+  width:90%
+}
+
+
+.cardtran{
+  position: relative;
+  overflow: hidden;
+}
+.cardtran::after,.cardtran::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  background-color: #ddf9e5;
+  opacity: .4;
+  transition:  .7s;
+}
+.cardtran::after{
+  bottom: 0;
+  right: 0;
+}
+.cardtran::before{
+  top: 0;
+  bottom: 0;
+}
+.cardtran:hover::after,.cardtran:hover::before{
+  width: 100%;
+  height: 100%;
+}
+.imagesScroll1{
+  background-image: url(images/counter2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+     background-attachment: fixed;
+}
+@media (max-width: 768px) {
+  .imagesScroll1 {
+    background-attachment: fixed;
+  }
+}
+.scal:hover .hover1 {
+  background-color:rgba(78, 214, 146, 0.31)!important;
+
+}.scal:hover {
+  transform:scale(.95);
+transition: transform .3s ease-in-out;
+}
+.scal{
+  transition: transform .3s ease-in-out;
+
+}
+.bgClip{
+  background: linear-gradient( to right , rgba(115, 231, 132, 0.141), rgba(242, 245, 242, 0.273));
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  
+
+}
+
+
+
+@media (min-width: 768px) {
+  .imgclip {
+    clip-path: polygon(11% 0, 100% 0%, 100% 100%, 29% 100%);
+    height: 100%; 
+  }
+}
+@media (min-width:768px){
+  .imgclip1{
+    clip-path: polygon(0 0, 87% 0, 71% 100%, 0 99%);
+  
+  }
+  
+}
+
+
+.green {
+  position: relative;
+  width: fit-content;
+}
+
+.green::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 4px;
+  width: 20%;
+  background-color: #85d8a2;
+  transition: width 0.5s ease;
+    border-radius: 20px;
+}
+
+.card:hover .green::after {
+  width: 80%;
+}
+.blue {
+  position: relative;
+  width: fit-content;
+}
+
+.blue::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 4px;
+  width: 20%;
+  background-color: #79e5f1;
+  transition: width 0.5s ease;
+    border-radius: 20px;
+}
+
+.card:hover .blue::after {
+  width: 80%;
+}
+.red {
+  position: relative;
+  width: fit-content;
+}
+
+.red::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 4px;
+  width: 20%;
+  background-color: #d13227;
+  transition: width 0.5s ease;
+    border-radius: 20px;
+}
+
+.card:hover .red::after {
+  width: 80%;
+}
+.yellow {
+  position: relative;
+  width: fit-content;
+}
+
+.yellow::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 4px;
+  width: 20%;
+  background-color: #fcd145;
+  transition: width 0.5s ease;
+  border-radius: 20px;
+}
+
+.card:hover .yellow::after {
+  width: 80%;
+}
+
+
+
