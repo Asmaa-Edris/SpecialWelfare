@@ -21,7 +21,8 @@
   </head>
   <body >
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
-  <!-- Indicators (اختياري) -->
+
+  <!-- Indicators -->
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -30,13 +31,18 @@
 
   <!-- Slides -->
   <div class="carousel-inner">
+
     <!-- Slide 1 -->
     <div class="carousel-item active">
-      <img src="images/home_3_slider.png" alt="Cairo" class="d-block w-100" style="min-height: 300px; object-fit: cover;">
-      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-3 rounded-4">
-        <span class="text-uppercase fs-4 fs-md-1 fw-bold">Helping Hands for a Better Future</span>
+      <img src="images/home_3_slider.png"
+           class="d-block w-100 img-fluid"
+           style="height: 50vh; object-fit: cover;"
+           alt="Cairo">
+
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-2 p-md-4 rounded-4">
+        <span class="text-uppercase fs-6 fs-md-4 fw-bold">Helping Hands for a Better Future</span>
         <p class="fs-6 fs-md-5 mt-2">Join us in our mission to create lasting positive change in communities.</p>
-        <button class="btn btn-light text-success fw-bold bg-gradient rounded-pill px-4 py-2 mt-3">
+        <button class="btn btn-light btn-sm btn-md-lg text-success fw-bold bg-gradient rounded-pill px-3 px-md-4 py-1 py-md-2 mt-3">
           Discover More
         </button>
       </div>
@@ -44,11 +50,15 @@
 
     <!-- Slide 2 -->
     <div class="carousel-item">
-      <img src="images/home_2_slide.png" alt="Aswan" class="d-block w-100" style="min-height: 300px; object-fit: cover;">
-      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-3 rounded-4">
-        <span class="text-uppercase fs-4 fs-md-1 fw-bold">Empowering Communities Together</span>
+      <img src="images/home_2_slide.png"
+           class="d-block w-100 img-fluid"
+           style="height: 50vh; object-fit: cover;"
+           alt="Aswan">
+
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-2 p-md-4 rounded-4">
+        <span class="text-uppercase fs-6 fs-md-4 fw-bold">Empowering Communities Together</span>
         <p class="fs-6 fs-md-5 mt-2">Your involvement strengthens our ability to reach those who need it most.</p>
-        <button class="btn btn-light text-success fw-bold bg-gradient rounded-pill px-4 py-2 mt-3">
+        <button class="btn btn-light btn-sm btn-md-lg text-success fw-bold bg-gradient rounded-pill px-3 px-md-4 py-1 py-md-2 mt-3">
           Get Involved
         </button>
       </div>
@@ -56,15 +66,20 @@
 
     <!-- Slide 3 -->
     <div class="carousel-item">
-      <img src="images/home_4.png" alt="Sharm El Sheikh" class="d-block w-100" style="min-height: 300px; object-fit: cover;">
-      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-3 rounded-4">
-        <span class="text-uppercase fs-4 fs-md-1 fw-bold">Making a Tangible Impact</span>
+      <img src="images/home_4.png"
+           class="d-block w-100 img-fluid"
+           style="height: 50vh; object-fit: cover;"
+           alt="Sharm El Sheikh">
+
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center bg-success bg-opacity-50 p-2 p-md-4 rounded-4">
+        <span class="text-uppercase fs-6 fs-md-4 fw-bold">Making a Tangible Impact</span>
         <p class="fs-6 fs-md-5 mt-2">Every contribution, big or small, helps us build a more equitable world.</p>
-        <button class="btn btn-light text-success fw-bold bg-gradient rounded-pill px-4 py-2 mt-3">
+        <button class="btn btn-light btn-sm btn-md-lg text-success fw-bold bg-gradient rounded-pill px-3 px-md-4 py-1 py-md-2 mt-3">
           Support Our Causes
         </button>
       </div>
     </div>
+
   </div>
 
   <!-- Controls -->
@@ -77,143 +92,13 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+
 </div>
 
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="mainNavbar">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
-        <li class="nav-item">
-          <a class="nav-link text-success" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-success" href="#">Causes</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-success border border-2 border-success-subtle rounded px-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span>G</span>et Involved
-          </a>
-          <ul class="dropdown-menu text-uppercase text-success bg-opacity-75 bg-white border-0">
-            <li><a class="dropdown-item text-success" href="#">Donate Now</a></li>
-            <li><a class="dropdown-item border-bottom border-success-subtle text-success" href="#">Become a Volunteer</a></li>
-            <li><a class="dropdown-item text-success" href="#">Upcoming Events</a></li>
-            <li><a class="dropdown-item text-success" href="#">Blog</a></li>
-            <li><a class="dropdown-item text-success" href="#">Contact</a></li>
-            <li><a class="dropdown-item text-success" href="#">More ....</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-success" href="#">About</a>
-        </li>
-      </ul>
-
-      <form class="d-flex" role="search">
-        <input class="form-control me-2 border-success-subtle border-2" type="search" placeholder="Search" aria-label="Search" />
-        <button class="btn btn-success me-2 text-white fw-bold" type="submit">Search</button>
-        <button type="button" class="btn btn-success me-2 text-white fw-bold" data-bs-toggle="modal" data-bs-target="#modela">
-          Login
-        </button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-<!-- Login Modal -->
-<div class="modal fade" id="modela" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header text-bg-success d-flex justify-content-between align-items-center p-2">
-        <h4 class="modal-title text-white ms-2">Login</h4>
-        <button type="button" class="btn-close me-2 border border-white bg-white bg-opacity-75" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-
-      <div class="modal-body">
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3 text-success">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control border border-success-subtle border-2" id="email" />
-            <span class="text-dark-emphasis">We'll never share your email with anyone else.</span>
-          </div>
-          <div class="mb-3 text-success">
-            <label for="pwd" class="form-label">Password</label>
-            <input type="password" class="form-control border border-success-subtle border-2" id="pwd" name="pswd" />
-          </div>
-          <div class="form-check form-switch text-success">
-            <input class="form-check-input border-success-subtle" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked />
-            <label class="form-check-label" for="mySwitch">Remember me</label>
-          </div>
-        </form>
-      </div>
-
-      <div class="modal-footer d-flex justify-content-between align-items-center">
-        <button type="button" class="btn btn-success me-2 text-white" data-bs-toggle="modal" data-bs-target="#myModal">
-          Login
-        </button>
-        <button type="button" class="btn btn-danger text-white" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/home_3_slider.png" alt="Cairo" class="d-block w-100" />
-          <div class="carousel-caption bg-success bg-opacity-50">
-            <span class="text-uppercase fs-1">Helping Hands for a Better Future</span>
-            <p>Join us in our mission to create lasting positive change in communities.</p>
-            <button class="btn btn-light me-2 text-success fw-bold bg-gradient">
-                         Discover More
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/home_2_slide.png" alt="Aswan" class="d-block w-100" />
-          <div class="carousel-caption bg-success bg-opacity-50">
-            <span class="text-uppercase fs-1">Empowering Communities Together</span>
-            <p>Your involvement strengthens our ability to reach those who need it most.</p>
-            <button class="btn btn-light me-2 text-success  fw-bold bg-gradient">
-              Get Involved
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="images/home_4.png"
-            alt="Sharm El Shikh"
-            class="d-block w-100"
-          />
-          <div class="carousel-caption bg-success bg-opacity-50">
-            <span class="text-uppercase fs-1">Making a Tangible Impact</span>
-            <p>Every contribution, big or small, helps us build a more equitable world.</p>
-            <button class="btn btn-light me-2 text-success  fw-bold bg-gradient">
-              Support Our Causes
-            </button>
-          </div>
-        </div>
-       
-      </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button
-        class="carousel-control-next "
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
+  
+      
     <ul
       class="list-unstyled position-fixed top-50 end-0 translate-middle-y z-3"
     >
@@ -877,3 +762,4 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 </script>
   </body>
 </html>
+
