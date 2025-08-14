@@ -31,7 +31,7 @@ body{
   .carousel-item img {
     width: 100% !important;    
    height: 100vh!important;    /* الارتفاع حسب نسبة الصورة */
-    object-fit:fill!important;
+    object-fit:inherit!important;
   }
 }
    .social-icon:hover
@@ -245,6 +245,7 @@ transition: transform .3s ease-in-out;
 .card:hover .yellow::after {
   width: 80%;
 }
+
 
 
 
