@@ -23,16 +23,15 @@ body{
   object-fit: cover;
 }
 
-/* للشاشات الصغيرة */
 @media (max-width: 768px) {
   .carousel-item {
     height: auto!important;
   }
 
   .carousel-item img {
-    width: 100% !important;     /* يتحكم بالعرض */
-    height: auto!important;    /* الارتفاع حسب نسبة الصورة */
-    object-fit: cover!important; /* الصورة كلها تبان */
+    width: 100% !important;    
+    height: 80vh !important;    
+    object-fit: cover!important; 
   }
 }
    .social-icon:hover
@@ -246,6 +245,7 @@ transition: transform .3s ease-in-out;
 .card:hover .yellow::after {
   width: 80%;
 }
+
 
 
 
